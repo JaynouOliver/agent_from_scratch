@@ -21,7 +21,7 @@ def calc(question):
     except Exception as e:
         return f"Error solving the problem: {str(e)}"
 
-# if __name__ == "__main__":
-#     # Test the calculator function
-#     result = calc("solve x^4 - 5x^3 + 6x^2 + 4x - 8 = 0")
-#     print(result)
+if __name__ == "__main__":
+    # Test the calculator function
+    result = calc("(2342342+2342342)*8")
+    print(result)

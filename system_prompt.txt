@@ -23,7 +23,7 @@ AnswerResponse(answer='Puyi was the last emperor of China. ([Britannica](https:/
 calculator(this is basically wolfram api in the back that is being called)
 
 Args:
-calc("explani the problem in short and natural language")
+calc("explain the problem in short and natural language")
 
 Returns :
 Assumption : "the Assumption in string format" 
@@ -32,7 +32,8 @@ answer: " in string format"
 Examples:
 >>> calc("solve x^4 - 5x^3 + 6x^2 + 4x - 8 = 0")
 
-'Assumption: solve x^4 - 5 x^3 + 6 x^2 + 4 x - 8 = 0 \nAnswer: x = -1'
+'Assumption: solve x^4 - 5 x^3 + 6 x^2 + 4 x - 8 = 0 
+Answer: x = -1'
 
 
 Process on how to solve the problem step by step :
